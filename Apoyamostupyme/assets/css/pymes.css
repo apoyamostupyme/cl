@@ -1,0 +1,236 @@
+h2{
+    margin-top: 30px;
+}
+
+body{
+    margin-top: 100px !important;
+}
+.section__title{
+    margin-bottom: 15px;
+}
+
+.portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s{
+    max-width: 500px !important;
+    text-align: center;
+}
+
+.ten{
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.circulo{
+    width: 160px;
+    height: 160px;
+    background: red;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.pro{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px !important;
+
+}
+
+.verpyme{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contenedor-productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+
+
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+  border-radius: .75rem;
+
+    box-shadow: 0 4px 16px hsla(355, 25%, 15%, .1);
+
+
+}
+
+.imgproducto{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+
+
+.gift__price {
+    font-size: var(--h3-font-size);
+    height: 20px;
+    height: 10px !important;
+  
+  }
+  
+  .gift__title {
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+  
+    height: 20px !important;
+  
+    max-width: 130px;
+    margin-bottom: 20px;
+
+
+    text-align: center;
+  
+  }
+
+
+
+
+  @media screen and (max-width: 450px){
+    .contenedor-productos{
+        
+        justify-content: space-around;
+
+    }
+
+    .item{
+        margin-bottom: 15px;
+    }
+
+
+  }
+
+
+  @media screen and (max-width: 384px){
+    .contenedor-productos{
+        
+        justify-content: space-around;
+
+    }
+
+    .item{
+        width: 200px;
+    }
+
+  }
+
+  @media screen and (max-width: 330px){
+    .contenedor-productos{
+        
+        justify-content: space-around;
+
+    }
+
+    .item{
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+  }
+
+
+
+
+  .wsp{
+      font-size: 16px;
+  }
+
+
+
+
+
+
+  .contenedor-contactos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      flex-direction: column;
+  }
+
+
+  .whatsap{
+    width: 200px;
+    height: 40px;
+
+    background: #40E95F;;
+
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+  }
+
+  .facebook{
+    width: 200px;
+    height: 40px;
+
+    background: #0093FD;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+  }
+
+  .instagram{
+    width: 200px;
+    height: 40px;
+
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+  }
+
+
+  .des{
+      margin-top: 15px;
+  }
