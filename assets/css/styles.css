@@ -564,6 +564,10 @@ body.dark-theme {
   transform: translateY(-.25rem);
 }
 
+.textolargo{
+  font-size: 14px !important;
+}
+
 
 
 
