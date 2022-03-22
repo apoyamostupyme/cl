@@ -464,6 +464,10 @@ body.dark-theme {
   .gift__container {
     justify-content: space-between;
   }
+  
+  .gift__price{
+    font-size: 15px !important;
+  }
 
 
 
@@ -484,6 +488,8 @@ body.dark-theme {
 
 
 
+
+
 @media screen and (max-width: 388px) {
   .gift__container {
     justify-content: space-between;
@@ -494,6 +500,10 @@ body.dark-theme {
     margin: 0;
     margin-bottom: 30px;
 
+  }
+
+    .fasdasd{
+    font-size: 13px !important;
   }
 }
 
@@ -565,7 +575,6 @@ body.dark-theme {
 }
 
 .textolargo{
-  font-size: 14px !important;
 }
 
 
@@ -851,4 +860,9 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
+}
+
+
+.sss{
+  font-size: 12px !important;
 }
