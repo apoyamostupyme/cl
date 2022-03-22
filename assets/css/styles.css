@@ -489,7 +489,7 @@ body.dark-theme {
 
 @media screen and (max-width: 391px) {
   .fasdasd{
-    font-size: 13px ;
+    font-size: 12px !important ;
   }
   }
 
