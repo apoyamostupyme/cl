@@ -487,7 +487,11 @@ body.dark-theme {
 }
 
 
-
+@media screen and (max-width: 391px) {
+  .fasdasd{
+    font-size: 13px ;
+  }
+  }
 
 
 @media screen and (max-width: 388px) {
@@ -502,9 +506,7 @@ body.dark-theme {
 
   }
 
-    .fasdasd{
-    font-size: 13px !important;
-  }
+
 }
 
 @media screen and (max-width: 347px) {
